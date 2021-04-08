@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="ContactMePage.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+
+
+    <title>ContactMe</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #47a7ec;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-weight: bold;" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-weight: bold;" href="#">My Project's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-weight: bold;" href="#">Contact Me</a>
+          </li>
+          </ul>
+          <div class="social-part">
+            <div class="row">
+            <div class="small-6 medium-4 columns text-center mobile-stack">
+              <a href="https://www.facebook.com/anna.rabinovich.14/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <div class="small-6 medium-4 columns text-center mobile-stack">
+              <a href="https://www.linkedin.cn/in/anna-rabynovych/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <div class="small-6 medium-3 columns end text-center mobile-stack">
+              <a href="hhttps://github.com/AnnaShw?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+      
+      <h2 class="h1-responsive ">Contact me!</h2>
+
+        <div class="container" id="cont"> 
+
+            
+            <div class="row ">
+      
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+                      <div class="row">
+      
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                  <input type="text" id="name" name="name" class="form-control">
+                              </div>
+                          </div>
+      
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                  <input type="text" id="email" name="email" class="form-control">
+                              </div>
+                          </div>
+      
+                      </div>
+      
+                      <div class="row">
+      
+                          <div class="col-md-12">
+      
+                              <div class="md-form">
+                                <label for="message">Your message: </label>
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              </div>
+      
+                          </div>
+                      </div>
+      
+                  </form>
+                
+                    <div class="text-center text-md-left center" >
+                        <a class="btn btn-light btn-block" id="btn" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+
+              </div>
+          </div>
+
+        </div>
+
+
+</body>
+</html>

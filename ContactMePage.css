@@ -1,7 +1,16 @@
 body{
-    background-image:url('1_3ET_B23xHpqS0btBS5SoBQ.png');
+    background-color: #E0E0E0;
     background-size: cover;
 }
+h2{
+    padding-left: 450px;
+    font-weight: bold;
+}
+
+#cont{
+    padding-left: 150px;
+}
+
 i.fa {
     font-size:2rem;
     padding-right: 40px;
@@ -39,4 +48,5 @@ i.fa {
           -ms-flex-direction: column;
               flex-direction: column;
     }
-      
+ 
+}
